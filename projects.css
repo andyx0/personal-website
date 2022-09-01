@@ -86,7 +86,7 @@ h1 {
     font-size: 5.5rem;
     position: relative;
     letter-spacing: 0.35rem;
-    color:#68AF85;
+    color: #68AF85;
     font-family: "IBM Plex Sans", Courier, sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -95,44 +95,9 @@ h1 {
     width: 60%;
 }
 
-/* --------- Sorting ---------- */
-
-.sort-section {
-    font-size: 1.25rem;
-    margin-left: 5rem;
-}
-
-.sort-section button {
-    display: inline-block;
-    margin: 0.75rem;
-    font-size: 1.25rem;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1rem;
-    font-weight: 700;
-    color:#575757;
-    background-color: rgb(0, 0, 0, 0);
-    border: 0.2rem solid #575757;
-}
-
-#sort-projects-button:hover {
-    background-color: #fa989883;
-    border-color: #D25F5F;
-}
-
-#sort-updates-button:hover {
-    background-color: #96cbf483;
-    border-color: #518BB6;
-}
-
 button.active.projects-button {
-    border-color:#B21313;
+    border-color: #B21313;
     background-color: #D25F5F;
-    color: white;
-}
-
-button.active.updates-button {
-    border-color: #336082;
-    background-color:#518BB6;
     color: white;
 }
 
@@ -163,9 +128,9 @@ main h4 {
     width: 48%;
     box-sizing: border-box;
     height: auto;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     /* align-items: center; */
     border-radius: 0.5rem;
     margin-bottom: 4%;
@@ -212,25 +177,11 @@ main h4 {
     /* border: 1px solid red; */
 }
 
-.update {
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.update .card-title {
-    height: min-content;
-}
-
 h5 {
     flex-basis: 100%;
 }
 
 .project {
-    border: 0.25rem solid #D25F5F;
-    background-color: #FFF6F6;
-}
-
-.update {
     border: 0.25rem solid #518BB6;
     background-color: #F5F9FF;
 }
@@ -241,7 +192,7 @@ h5 {
 }
 
 .img-wrap {
-    max-width:45%;
+    max-width: 45%;
     margin: 1rem 0 0 1rem;
 }
 
@@ -322,10 +273,6 @@ h5 {
 
 .project #close-button:hover {
     background-color: #fa989883;
-}
-
-.update #close-button:hover {
-    background-color: #96cbf483;
 }
 
 /* --------- Responsive Design --------- */
@@ -420,6 +367,7 @@ h5 {
 }
 
 @media only screen and (max-width: 450px) {
+
     h1 {
         font-size: 3.5rem;
         margin-left: 3rem;

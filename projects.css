@@ -186,6 +186,13 @@ h5 {
     background-color: #F5F9FF;
 }
 
+.project:hover {
+    cursor: pointer;
+    border: 0.25rem solid #518BB6;
+    box-shadow: 0px 15px 35px rgb(0, 0, 0, 0.06);
+    transform: scale(1.03);
+}
+
 .card-image {
     border: 1px solid rgb(180, 180, 180);
     max-height: 15rem;

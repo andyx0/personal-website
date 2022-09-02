@@ -184,6 +184,8 @@ h5 {
 .project {
     border: 0.25rem solid #518BB6;
     background-color: #F5F9FF;
+    transition: 0.4s ease-in-out;
+    transform: scale(1);
 }
 
 .project:hover {

@@ -53,8 +53,8 @@ object {
 #pfp {
   width: 35%;
   border-radius: 100%;
-  border: 0.75rem solid #68af85;
-  position: absolute;
+  border: 0.75rem solid #BF40BF;
+  position: relative;
   left: 28rem;
   bottom: 3rem;
   min-width: 23rem;
@@ -130,7 +130,7 @@ nav li.resume :hover {
   color: #d25f5f;
 }
 
-nav li.projects-blogs :hover {
+nav li.projects :hover {
   color: #68af85;
 }
 

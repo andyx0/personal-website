@@ -71,6 +71,8 @@ main h1 {
   font-size: 6.25rem;
   position: relative;
   letter-spacing: 0.35rem;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: black;
   /* border: 2px solid red; */
 }
 
